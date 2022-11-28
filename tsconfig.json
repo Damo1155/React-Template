@@ -1,0 +1,17 @@
+{
+    "compileOnSave": false,
+    "exclude": [
+      "node_modules"
+    ],
+    "compilerOptions": {
+      "outDir": "./dist/",
+      "noImplicitAny": false,
+      "target": "ESNext",
+      "module": "ESNext",
+      "jsx": "react-jsx",
+      "allowJs": true,
+      "allowSyntheticDefaultImports": true,
+      "moduleResolution": "Node",
+      "baseUrl": ".",
+    }
+  }
