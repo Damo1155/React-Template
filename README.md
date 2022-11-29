@@ -4,6 +4,8 @@ A lightweight template for setting up the essentials when working with React in 
 
 # Future Improvements
 
+- Add Playwright integration
+- Potentially look at reusable helpers for Playwright testing
 - Tooling like DependaBot/Renovate to keep packages up to date.
 - Lockdown core branches so accidental pushes cannot be committed back to this repository.
 
