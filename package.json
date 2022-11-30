@@ -4,26 +4,33 @@
   "description": "Template to help aid development using React within a Webpack and Typescript enivronment",
   "main": "index.js",
   "scripts": {
-    "serve": "webpack serve --open",
+    "start": "webpack serve --open",
     "cover:jest": "jest --coverage --passWithNoTests"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Damo1155/React-Template"
+  },
+  "author": {
+    "name": "Damian Connolly",
+    "url": "https://github.com/Damo1155"
+  },
   "license": "MIT",
   "devDependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
-    "@types/node": "18.11.8",
-    "@types/react": "18.0.24",
-    "@types/react-dom": "18.0.8",
-    "html-webpack-plugin": "5.5.0",
+    "@types/node": "^18.11.8",
+    "@types/react": "^18.0.24",
+    "@types/react-dom": "^18.0.8",
+    "html-webpack-plugin": "^5.5.0",
     "jest": "^29.2.2",
     "jest-environment-jsdom": "^29.2.2",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "ts-loader": "9.4.1",
-    "typescript": "4.8.4",
-    "webpack": "5.74.0",
-    "webpack-cli": "4.10.0",
-    "webpack-dev-server": "4.11.1"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "ts-loader": "^9.4.1",
+    "typescript": "^4.8.4",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
   }
 }

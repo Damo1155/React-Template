@@ -5,12 +5,17 @@ A lightweight template for setting up the essentials when working with React in 
 # Installation Details
 
 - Fork this project into a new repository
-- Rename the project name and description within `package.json` to something more appropriate
-    - It's also recommended you change/remove the license details as required
+- Adjust the following `package.json` fields in the new repository
+    - `name`
+    - `description`
+    - `license`
+    - `repository`
+    - `author`
 - Install all the packages using NPM or YARN
 - Run the application from the new directory using NPM or YARN
-    - yarn serve
-    - npm run serve
+    - `yarn start`
+    - `npm run start`
+    - Feel free to rename/remove these where appropriate
 
 # Future Improvements
 
