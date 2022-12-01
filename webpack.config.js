@@ -13,6 +13,11 @@ module.exports = (env) => {
             filename: "index.js",
             path: path.resolve( __dirname, "dist" )
         },
+        devServer: {
+            hot: true,
+            port: 4200,
+            open: false
+        },
         module: {
             rules: [
                 {

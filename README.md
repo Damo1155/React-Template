@@ -15,11 +15,10 @@ Under Construction
     - `license`
     - `repository`
     - `author`
-- Install all the packages using NPM or YARN
-- Run the application from the new directory using NPM or YARN
+- Install all the packages using YARN
+- Run the application from the new directory using YARN
     - `yarn start`
-    - `npm run start`
-    - Feel free to rename/remove these where appropriate
+    - Feel free to rename as required
 
 # Future Improvements
 

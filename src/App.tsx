@@ -1,7 +1,7 @@
 export const App = () => {
     return (
         <>
-            APP TEST
+            <h1>APP TEST HEADER</h1>
         </>
     );
 };
